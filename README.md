@@ -37,4 +37,4 @@ uvx dotenvx run -- uv run python deploy.py
 
 Then add the action at `https://quilcast.com/actions?add=dolphin.qstorage.quilibrium.com`.
 
-Script and style URLs end in `?v=3`. Those files stay cached for about four hours, so bump the number in [public/index.html](public/index.html) and [public/app.js](public/app.js) when they change.
+Script and style URLs end in `?v=4`. Those files stay cached for about four hours, so bump the number in [public/index.html](public/index.html) and [public/app.js](public/app.js) when they change.

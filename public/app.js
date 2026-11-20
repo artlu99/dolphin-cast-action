@@ -267,12 +267,12 @@ function listen() {
   recognition.onerror = (event) => {
     failed = true
     listener = null
-    $("#speak").textContent = "🎙️ Speak a cast"
+    $("#speak").textContent = "🎙️ Voice to dolphin"
     status(event.error === "not-allowed" ? "Microphone access was refused." : "Listening failed — try again.", true)
   }
   recognition.onend = () => {
     listener = null
-    $("#speak").textContent = "🎙️ Speak a cast"
+    $("#speak").textContent = "🎙️ Voice to dolphin"
     if (failed) return
     const words = said.trim()
     if (!words) {
