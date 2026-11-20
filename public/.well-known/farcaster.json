@@ -1,0 +1,19 @@
+{
+  "miniapp": {
+    "version": "1",
+    "name": "Dolphin",
+    "iconUrl": "https://dolphin.qstorage.quilibrium.com/icon.png",
+    "homeUrl": "https://dolphin.qstorage.quilibrium.com/",
+    "castShareUrl": "https://dolphin.qstorage.quilibrium.com/",
+    "splashImageUrl": "https://dolphin.qstorage.quilibrium.com/icon.png",
+    "splashBackgroundColor": "#062833",
+    "subtitle": "This cast, in squeaks",
+    "description": "Play the cast as a run of dolphin squeaks, about as long as the text.",
+    "primaryCategory": "utility",
+    "tags": ["dolphin", "quilcast"],
+    "canonicalDomain": "dolphin.qstorage.quilibrium.com",
+    "ogTitle": "Dolphin",
+    "ogDescription": "This cast, in squeaks.",
+    "ogImageUrl": "https://dolphin.qstorage.quilibrium.com/og-card.png"
+  }
+}
