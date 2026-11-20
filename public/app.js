@@ -5,6 +5,10 @@ import { calls, durationSeconds, seedFrom } from "./sound.js?v=3"
 const NODE = "https://haatz.quilibrium.com"
 const $ = (selector) => document.querySelector(selector)
 
+// Before anything that can wait: the pop-out needs the exact URL that
+// brought us here, cast hash and all, even if the cast fetch stalls.
+$("#popout").href = location.href
+
 let audio
 let playing = false
 let nodes = []
